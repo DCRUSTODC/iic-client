@@ -3,9 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins, 'sans-serif';
+  color: #EDF5E1;
+}
+
+body {
+  background-color: #5CDB95;
 }
