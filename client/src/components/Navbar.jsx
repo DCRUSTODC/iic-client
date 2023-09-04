@@ -13,7 +13,7 @@ export default function Navbar() {
                     <nav className="hidden md:flex md:grow">
                         <ul className="flex grow justify-end flex-wrap items-center gap-5">
                             <li className="text-[#05386b]"><Link to="/team">Team</Link></li>
-                            <li className="text-[#05386b]"><Link to="/event">Events</Link></li>
+                            <li className="text-[#05386b]"><Link to="/events">Events</Link></li>
                         </ul>
                     </nav>
                 </div>
