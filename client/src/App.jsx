@@ -7,10 +7,10 @@ import Event from './pages/Event';
 function App() {
   return (
     <Routes>
-      <Route path = '/' element={<Layout />}>
+      <Route path='/' element={<Layout />}>
         <Route element={<Home />} index />
-        <Route element={<Event />} path = "/events" />
-        <Route element={<Team />} path = "/team" />
+        <Route element={<Event />} path="/events" />
+        <Route element={<Team />} path="/team" />
       </Route>
     </Routes>
   );
