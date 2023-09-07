@@ -1,11 +1,26 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    colors: {
+      be: "#05386B",
+      le: "#379683",
+      gn: "#5CDB95",
+      ln: "#8EE4AF",
+      we: "#EDF5E1",
+    },
+
+    // Define custom keyframes and animations
+    keyframes: {
+      fadeIn: {
+        from: { opacity: 0 },
+        to: { opacity: 1 },
+      },
+    },
+    animation: {
+      "fade-in": "fadeIn 1s ease-in-out", // Apply the fadeIn animation with a 1s duration
+    },
   },
   plugins: [],
-}
+};
