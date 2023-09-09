@@ -7,7 +7,7 @@ export default function Navbar() {
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
                     <div className="shrink-0 mr-4">
-                        <div className="text-3xl font-bold">IIC</div>
+                        <div className="text-3xl font-bold"><Link to="/">IIC</Link></div>
                     </div>
                     {/* Nav */}
                     <nav className="hidden md:flex md:grow">
