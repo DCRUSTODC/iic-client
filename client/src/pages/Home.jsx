@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "../components/About";
-import aboutImg1 from '../assets/image.png';
+import aboutImg1 from '../assets/group.jpg';
 
 export default function Home() {
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function Home() {
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
-                  className="btn p-2 rounded bg-primary hover:bg-[#0d2b25] w-full mb-4 sm:w-auto sm:mb-0"
+                  className="btn p-2 rounded bg-cyan hover:bg-cyan_secondary w-full mb-4 sm:w-auto sm:mb-0"
                   href="#0"
                 >
                   Start free trial
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </div>
 
-        <hr className="border border-primary w-[25rem] mx-auto my-[5rem]"/>
+        <hr className="border border-cyan w-[25rem] mx-auto my-[5rem]"/>
       {/* About */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col gap-5 items-center justify-center">
@@ -46,14 +46,14 @@ export default function Home() {
         <About 
         imgFirst={false}
         title = "Title"
-        description = "Content"
+        description = "Content lora jasdas asdasd aadsas adasd adsasd adasaf sad asdadsa "
         img = {aboutImg1}
         />
         <About 
         imgFirst={true}
-        title = "asd"
-        description = "sad"
-        img = {aboutImg1}
+        title = "Title"
+        description = "sad asdas asd aasda sad asda asda sad asda asdas"
+        img = "https://www.mic.gov.in/assets/img/iic-logo.png"
         />
         </div>
       </div>
