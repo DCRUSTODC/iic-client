@@ -4,11 +4,9 @@ export default {
   theme: {
     extend: {},
     colors: {
-      be: "#05386B",
-      le: "#379683",
-      gn: "#5CDB95",
-      ln: "#8EE4AF",
-      we: "#EDF5E1",
+      cyan: "#66FCF1",
+      grey: "#C5C6C7",
+      cyan_secondary: "#45A29E"
     },
 
     // Define custom keyframes and animations

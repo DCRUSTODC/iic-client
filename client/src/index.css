@@ -8,11 +8,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins, "sans-serif";
-  color: #edf5e1;
+  color: white;
 }
 
 body {
-  background-color: #5cdb95;
+  background-color: #1F2833;
 }
 @keyframes float {
   0% {

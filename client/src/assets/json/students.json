@@ -1,0 +1,128 @@
+[
+    {
+        "name" : "Tushar",
+        "desig" : "Full Stack Developer",
+        "img" : "https://images.unsplash.com/photo-1499155286265-79a9dc9c6380?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1884&q=80",
+        "in" : "#"
+    },
+    {
+        "name" : "Vinay Matta",
+        "desig" : "Full Stack Developer",
+        "img" : "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "in" : "#"
+    },
+    {
+        "name" : "Nikita Jain",
+        "desig" : "Developer",
+        "img" : "https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "in" : "#"
+    },
+    {
+        "name" : "Deepanshu Kaushik",
+        "desig" : "Record of Activities",
+        "img" : "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "in" : "#"
+    },
+    {
+        "name" : "Chirag Goyal",
+        "desig" : "Record of Activities",
+        "img" : "https://images.unsplash.com/photo-1519764622345-23439dd774f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "in" : "#"
+    },
+    {
+        "name" : "Hemant",
+        "desig" : "Record of Activities",
+        "img" : "https://images.unsplash.com/photo-1530107973768-581951e62d34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "in" : "#"
+    },
+    {
+        "name" : "Rohan Malik",
+        "desig" : "Media/Publicity",
+        "img" : "https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "in" : "#"
+    },
+    {
+        "name" : "Yashwant Soni",
+        "desig" : "Media/Publicity",
+        "img" : "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "in" : "#"
+    },
+    {
+        "name" : "Anjali Duhan",
+        "desig" : "Event Management",
+        "img" : "https://media.istockphoto.com/id/1407086380/photo/portrait-of-thoughtful-women.jpg?s=612x612&w=0&k=20&c=VT-86coGAEMSJrkDHcgRGocRTbg7znwykiA9jMqiKeY=",
+        "in" : "#"
+    },
+    {
+        "name" : "Devansh Atray",
+        "desig" : "Event Management",
+        "img" : "https://media.istockphoto.com/id/1023413992/photo/beautiful-woman-with-make-up.jpg?s=612x612&w=0&k=20&c=Qns_7GWervSd3H-XRcbwS6wdkI5HhaO3fAVW1TStZHs=",
+        "in" : "#"
+    },
+    {
+        "name" : "Tamanna Verma",
+        "desig" : "Event Management",
+        "img" : "https://media.istockphoto.com/id/1181710148/photo/the-picture-of-elegant-african-woman-in-dark-green-dress-looking-at-the-camera.jpg?s=612x612&w=0&k=20&c=J0IQ_5ZpDd1q_vJ58AlLeCYqgR5VN51RKQcG4R3G_0A=",
+        "in" : "#"
+    },
+    {
+        "name" : "Harsh Kumar Phogat",
+        "desig" : "Member",
+        "img" : "https://media.istockphoto.com/id/1491125781/photo/smiling-businesswoman-against-a-plain-background.jpg?s=612x612&w=0&k=20&c=pA3AQ8QGWsYb-6SMSo9_ZpfogDeM0nNR5OLJ6Gclz4Y=",
+        "in" : "#"
+    },
+    {
+        "name" : "Chaitanya",
+        "desig" : "Member",
+        "img" : "https://media.istockphoto.com/id/1388648617/photo/confident-caucasian-young-man-in-casual-denim-clothes-with-arms-crossed-looking-at-camera.jpg?s=612x612&w=0&k=20&c=YxctPklAOJMmy6Tolyvn45rJL3puk5RlKt39FO46ZeA=",
+        "in" : "#"
+    },
+    {
+        "name" : "Jatin",
+        "desig" : "Member",
+        "img" : "https://media.istockphoto.com/id/1169530992/photo/portrait-of-his-he-nice-looking-attractive-masculine-cheerful-cheery-bearded-healthy-content.jpg?s=612x612&w=0&k=20&c=h_Ry2OODjDP9ofYaBvLegOzEFseKJvHnR_MAc-OprsQ=",
+        "in" : "#"
+    },
+    {
+        "name" : "Yuvraj Singh",
+        "desig" : "Member",
+        "img" : "https://media.istockphoto.com/id/609696196/photo/life-is-so-much-easier-in-the-digital-age.jpg?s=612x612&w=0&k=20&c=TkqJa8VtXwOp-AYuv5lsJcRd5qIb1zBgpPpMwH6uIgM=",
+        "in" : "#"
+    },
+    {
+        "name" : "Paritosh Dahiya",
+        "desig" : "Member",
+        "img" : "https://media.istockphoto.com/id/487195226/photo/young-man-using-phone.jpg?s=612x612&w=0&k=20&c=Am5jW7hJ73QUfA3AArmLM8ZyXUptec5yG3UwD_R_8oA=",
+        "in" : "#"
+    },
+    {
+        "name" : "Rahul Saini",
+        "desig" : "Member",
+        "img" : "https://media.istockphoto.com/id/1389141146/photo/young-woman-close-up-studio-portrait.jpg?s=612x612&w=0&k=20&c=uhC3cDboegb3ppIQH23CPtetJugJHSRYttaIOCr-KlY=",
+        "in" : "#"
+    },
+    {
+        "name" : "Rishabh Kalra",
+        "desig" : "Member",
+        "img" : "https://media.istockphoto.com/id/1312878485/photo/man-skincare-facial-treatment-hydrogel-eye-patches.jpg?s=612x612&w=0&k=20&c=62w1m5kn2MJBA9UkQR-X2a5-jG3YMbQ7f0mK1vJddJQ=",
+        "in" : "#"
+    },
+    {
+        "name" : "Naveen",
+        "desig" : "Member",
+        "img" : "https://media.istockphoto.com/id/1278095892/photo/a-healthy-young-woman-holds-a-glass-of-water.jpg?s=612x612&w=0&k=20&c=ZAPnRGoCxFLVyAGfzXYo1Dtf6r2rJ7m2m3nU0TdFLZs=",
+        "in" : "#"
+    },
+    {
+        "name" : "Kashish",
+        "desig" : "Member",
+        "img" : "https://media.istockphoto.com/id/1396511871/photo/emotional-african-american-man-with-african-hairstyle.jpg?s=612x612&w=0&k=20&c=YZQnSxUc3_BtP8FnywSKsi1cs6Gm1NBTx5KwBSxf5PU=",
+        "in" : "#"
+    },
+    {
+        "name" : "Bharti",
+        "desig" : "Member",
+        "img" : "https://media.istockphoto.com/id/1411010337/photo/woman-dances-and-shakes-her-head.jpg?s=612x612&w=0&k=20&c=4a66fEcDNl0ljrzohGoZ3PbBdiU_eut-vabxgJ26ntQ=",
+        "in" : "#"
+    }
+]

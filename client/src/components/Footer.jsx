@@ -2,7 +2,7 @@
 export default function Footer() {
     return(
         <>
-        <div className="bg-[#05386b] text-[#edf5e1] flex justify-center p-5">
+        <div className="text-[#111] bg-cyan flex justify-center p-5 mt-20">
             Footer Here
         </div>
         </>
