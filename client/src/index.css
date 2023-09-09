@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #1F2833;
+  background-color: #1f2833;
 }
 @keyframes float {
   0% {
@@ -28,4 +28,20 @@ body {
 
 .floating-image {
   animation: float 2s infinite;
+}
+::-webkit-scrollbar {
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #45a29e;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: cyan;
 }
