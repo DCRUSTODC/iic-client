@@ -2,7 +2,7 @@ import React from 'react';
 import EventCard from '../components/EventCard'; // Create EventCard component if not already defined
 import eventImage1 from '../assets/event1.jpg';
 import eventImage2 from '../assets/event2.jpg';
-import ue from '../assets/ue.gif';
+import FloatingImage from '../components/FloatingImage';
 
 
 
@@ -83,14 +83,14 @@ function Events() {
     return (
         <>
             <div className='flex justify-center items-center '>
-                <div className='text-5xl text-center text-be font-bold underline underline-offset-4 animate-fade-in animate-delay-500'>
+                <div className='text-5xl text-center   font-bold  animate-fade-in animate-delay-500'>
                     Events
                 </div>
-                <img src={ue} alt="Event GIF" className="w-12 h-12 inline-block m-5" />
+                <FloatingImage />
             </div>
 
             <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 ">
-                <h1 className="text-3xl font-semibold mb-8 text-we animate-fade-in animate-delay-800 m1-8">Upcoming Events</h1>
+                <h1 className="text-3xl font-semibold mb-8  animate-fade-in animate-delay-800 m1-8">Upcoming Events</h1>
                 <div className="flex overflow-x-auto overflow-y-auto gap-6 p-5 animate-fade-in animate-delay-1000">
 
                     {upcomingEvents.map((event, index) => (
@@ -99,7 +99,10 @@ function Events() {
 
                 </div>
                 <br />
-                <h1 className="text-3xl font-semibold mb-8 text-we animate-fade-in animate-delay-800">Previous Events</h1>
+                <br />
+                <br />
+
+                <h1 className="text-3xl font-semibold mb-8  animate-fade-in animate-delay-800">Previous Events</h1>
                 <div className="flex overflow-x-auto overflow-y-auto gap-6 p-5 animate-fade-in animate-delay-1000">
 
                     {previousEvents.map((event, index) => (

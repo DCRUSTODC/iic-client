@@ -14,3 +14,18 @@
 body {
   background-color: #5cdb95;
 }
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating-image {
+  animation: float 2s infinite;
+}
