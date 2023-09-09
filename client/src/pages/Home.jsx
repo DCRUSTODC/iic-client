@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "../components/About";
-import aboutImg1 from '../assets/bulb.jpg';
+import aboutImg1 from '../assets/image.png';
 
 export default function Home() {
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function Home() {
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
-                  className="btn p-2 rounded bg-[#05386B] hover:bg-[#0d2b25] w-full mb-4 sm:w-auto sm:mb-0"
+                  className="btn p-2 rounded bg-primary hover:bg-[#0d2b25] w-full mb-4 sm:w-auto sm:mb-0"
                   href="#0"
                 >
                   Start free trial
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </div>
 
-        <hr className="border border-[#05386b] w-[25rem] mx-auto my-[5rem]"/>
+        <hr className="border border-primary w-[25rem] mx-auto my-[5rem]"/>
       {/* About */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col gap-5 items-center justify-center">
