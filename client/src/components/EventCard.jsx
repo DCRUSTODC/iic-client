@@ -12,7 +12,6 @@ function EventCard({ event }) {
                 <p className="text-we mb-2">{event.location}</p>
                 <p className="text-we">{event.description}</p>
             </div>
-
         </div >
     );
 }
