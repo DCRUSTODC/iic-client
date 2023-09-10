@@ -2,7 +2,7 @@ import React from 'react';
 
 function EventCard({ event }) {
     return (
-        <div className="flex-shrink-0 snap-center w-100 p-4 mx-2  rounded-lg overflow-hidden shadow-md border border-2 border-cyan_secondary bg-black">
+        <div className="flex-shrink-0 snap-center w-100 p-4 mx-2  rounded-lg overflow-hidden shadow-md border border-2  bg-black event-card">
 
             <img src={event.image} alt={event.title} className="w-full h-40 object-cover" />
 
