@@ -10,7 +10,7 @@ export default function Navbar() {
                         <div className="text-3xl font-bold text-cyan"><Link to="/">IIC</Link></div>
                     </div>
                     {/* Nav */}
-                    <nav className="hidden md:flex md:grow">
+                    <nav className="flex grow">
                         <ul className="flex grow justify-end flex-wrap items-center gap-5">
                             <li className="font-semibold"><Link to="/team">Team</Link></li>
                             <li className="font-semibold"><Link to="/events">Events</Link></li>
