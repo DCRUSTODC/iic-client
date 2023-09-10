@@ -1,23 +1,27 @@
 [
     {
+        "id" : 0,
         "name" : "Prof. Suman Sangwan",
         "desig" : "President IIC",
         "img" : "./src/assets/images/team/suman.jpeg",
         "in" : "#"
     },
     {
+        "id" : 1,
         "name" : "Dr. Rohtash Dhiman",
         "desig" : "Co-ordinator",
         "img" : "./src/assets/images/team/rohtash.jpeg",
         "in" : "#"
     },
     {
+        "id" : 2,
         "name" : "Dr. Ajmer Singh",
         "desig" : "Co-ordinator",
         "img" : "./src/assets/images/team/ajmer.jpeg",
         "in" : "#"
     },
     {
+        "id" : 3,
         "name" : "Mr. Vikas Nehra",
         "desig" : "Co-ordinator",
         "img" : "./src/assets/images/team/vikas.jpeg",
