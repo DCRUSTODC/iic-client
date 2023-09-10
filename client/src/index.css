@@ -15,13 +15,7 @@ body {
   background-color: #1F2833;
 }
 
-header a:hover::before {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px #66fcf1;
-}
-
 header a:hover {
   color: #66fcf1;
-  box-shadow: 0 0 5px #66fcf1;
   text-shadow: 0 0 5px #66fcf1;
 }

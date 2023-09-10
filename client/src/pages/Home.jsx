@@ -14,12 +14,6 @@ export default function Home() {
   return (
     <>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        {/* Vertical Line */}
-        <div className="absolute left-0.5 sm:left-1 h-full">
-          <div className="w-0.5 sm:w-[3px] rounded bg-gradient-to-b from-cyan to-white h-full sm:left-5 mx-auto my-2"></div>
-          <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" className="fill-cyan inline-block align-text-bottom my-2">
-            <path d="M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06Zm-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0Z"></path>
-          </svg></div>
         {/* Content */}
         <div className="pt-32 pb-10 md:pt-40 md:pb-16">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -47,7 +41,7 @@ export default function Home() {
       {/* About */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col gap-5 items-center justify-center">
-          <h1 className="title text-4xl text-cyan font-bold">
+          <h1 className="title text-4xl text-cyan font-bold"  data-aos="fade-up">
             About
           </h1>
           <About
