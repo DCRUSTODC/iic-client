@@ -80,3 +80,8 @@ image-float-left {
 .image-transition {
   transition: opacity 0.5s ease-in-out;
 }
+
+header a:hover {
+  color: #66fcf1;
+  text-shadow: 0 0 5px #66fcf1;
+}

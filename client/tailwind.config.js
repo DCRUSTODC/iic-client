@@ -2,14 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
-    colors: {
-      cyan: "#66FCF1",
-      grey: "#C5C6C7",
-      cyan_secondary: "#45A29E",
+    extend: {
+      colors: {
+        cyan: "#66FCF1",
+        grey: "#C5C6C7",
+        cyan_secondary: "#45A29E",
       black: "#000000",
       white: "#ffffff",
+      }
     },
+   
 
     // Define custom keyframes and animations
     keyframes: {
