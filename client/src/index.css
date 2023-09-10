@@ -75,3 +75,8 @@ image-float-left {
   float: right;
   max-width: 60%; /* Adjust as needed */
 }
+
+/*Image transition in slideshow of event page*/
+.image-transition {
+  transition: opacity 0.5s ease-in-out;
+}
