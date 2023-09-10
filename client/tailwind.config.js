@@ -8,6 +8,7 @@ export default {
       grey: "#C5C6C7",
       cyan_secondary: "#45A29E",
       black: "#000000",
+      white: "#ffffff",
     },
 
     // Define custom keyframes and animations
