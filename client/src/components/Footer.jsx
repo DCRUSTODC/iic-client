@@ -1,7 +1,7 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 export default function Footer() {
-    return(
-    
+    return (
+
         <footer className="w-full bg-cyan p-5">
             <div className="flex justify-around">
                 <div className="logo text-black text-4xl flex items-center">
@@ -27,10 +27,10 @@ export default function Footer() {
                             <li className="text-black"><Link to="/team">Team</Link></li>
                         </ul>
                     </div>
-                    
+
                 </div>
             </div>
         </footer>
-        
+
     )
 }

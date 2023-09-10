@@ -41,7 +41,7 @@ export default function Home() {
       {/* About */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col gap-5 items-center justify-center">
-          <h1 className="title text-4xl text-cyan font-bold"  data-aos="fade-up">
+          <h1 className="title text-4xl text-cyan font-bold" data-aos="fade-up">
             About
           </h1>
           <About
