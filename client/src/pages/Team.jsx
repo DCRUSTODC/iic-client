@@ -7,7 +7,7 @@ export default function Team(){
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <center className="mb-6">
             <h2 className="text-3xl text-primary font-bold">Team</h2>
-            <div className="font-semibold text-accent relative -top-1">IIC rely on these people</div>
+            <div className="font-semibold text-cyan_secondary relative -top-1">IIC rely on these people</div>
         </center>
         <hr className="text-primary"/>
         <h2 className="text-3xl font-bold m-3 text-accent">Faculty</h2>
