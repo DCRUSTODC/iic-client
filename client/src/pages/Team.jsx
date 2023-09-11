@@ -14,7 +14,7 @@ export default function Team(){
         <center>
             <div className="flex flex-wrap flex-row justify-evenly items-center">
             {facs.map((fac)=>{
-                return <Card src={fac.img} name={fac.name} desig={fac.desig} />
+                return <Card key={fac.id} src={fac.img} name={fac.name} desig={fac.desig} />
             })}
             </div>
         </center>
@@ -22,7 +22,7 @@ export default function Team(){
         <center>
             <div className="flex flex-wrap flex-row justify-evenly items-center">
             {studs.map((stu)=>{
-                return <Card src={stu.img} name={stu.name} desig={stu.desig} />
+                return <Card key={stu.id} src={stu.img} name={stu.name} desig={stu.desig} />
             })}
             </div>
         </center>
