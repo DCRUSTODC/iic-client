@@ -11,6 +11,10 @@ export default function Home() {
     AOS.refresh();
   }, []);
 
+  function popUp(){
+    alert("Will be Available Soon ! ")
+  }
+
   return (
     <>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -28,6 +32,7 @@ export default function Home() {
                 <a
                   className="btn px-4 py-2 rounded-lg text-black bg-cyan hover:bg-cyan_secondary w-full sm:w-auto sm:mb-0"
                   href="#0"
+                  onClick={popUp}
                 >
                   Join Us
                 </a>
