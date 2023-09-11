@@ -12,7 +12,73 @@
 }
 
 body {
-  background-color: #1F2833;
+  background-color: #1f2833;
+}
+
+/* logo beside event heading floating animation*/
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating-image {
+  animation: float 2s infinite;
+}
+/* Scrollbar-modification*/
+::-webkit-scrollbar {
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #45a29e;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: cyan;
+}
+
+/* Effects to border in eventcards in event*/
+@keyframes border-color-change {
+  0% {
+    border-color: cyan;
+  }
+  50% {
+    border-color: #45a29e;
+  }
+  100% {
+    border-color: cyan;
+  }
+}
+.event-card {
+  animation: border-color-change 1s infinite;
+}
+
+/* float image to left in events*/
+image-float-left {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+/* float text to right in events*/
+.heading-float-right {
+  float: right;
+  max-width: 60%; /* Adjust as needed */
+}
+
+/*Image transition in slideshow of event page*/
+.image-transition {
+  transition: opacity 0.5s ease-in-out;
 }
 
 header a:hover {
