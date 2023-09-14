@@ -2,10 +2,7 @@ import React from 'react';
 import EventCard from '../components/EventCard'; // Create EventCard component if not already defined
 import event1 from '../assets/event_images/event1.jpg';
 import event2 from '../assets/event_images/event2.jpg';
-import FloatingImage from '../components/FloatingImage';
 import RotatingImages from '../components/RotatingImages';
-
-
 
 const eventsData = [
     {
@@ -87,7 +84,6 @@ function Events() {
                 <div className='text-5xl text-center   font-bold  animate-fade-in animate-delay-500 text-grey m-2'>
                     Events
                 </div>
-                <FloatingImage />
             </div>
             <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 ">
                 <div className="flex flex-col md:flex-row">
