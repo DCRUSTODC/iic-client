@@ -3,21 +3,21 @@
         "id" : 1,
         "name" : "Himanshu",
         "desig" : "Full Stack Developer",
-        "img" : "./src/assets/images/team/himanshu.jpeg",
+        "img" : "../images/team/himanshu.jpeg",
         "in" : "#"
     },
     {
         "id" : 2,
         "name" : "Ajay Kumar",
         "desig" : "Full Stack Developer",
-        "img" : "./src/assets/images/team/ak.jpeg",
+        "img" : "../images/team/ak.jpeg",
         "in" : "#"
     },
     {
         "id" : 3,
         "name" : "Mukul Bhardwaj",
         "desig" : "Full Stack Developer",
-        "img" : "./src/assets/images/team/mb.jpeg",
+        "img" : "../images/team/mb.jpeg",
         "in" : "#"
     }
 ]
