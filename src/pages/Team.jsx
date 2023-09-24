@@ -1,5 +1,5 @@
-import facs from "../assets/json/teachers.json"
-import studs from "../assets/json/students.json"
+import facs from "../assets/json/team/teachers.json"
+import studs from "../assets/json/team/data/2023.json"
 import Card from "../components/Card"
 
 export default function Team(){
