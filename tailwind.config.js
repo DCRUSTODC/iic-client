@@ -7,11 +7,11 @@ export default {
         cyan: "#66FCF1",
         grey: "#C5C6C7",
         cyan_secondary: "#45A29E",
-      black: "#000000",
-      white: "#ffffff",
-      }
+        black: "#000000",
+        white: "#ffffff",
+        lb: "#1a1110",
+      },
     },
-   
 
     // Define custom keyframes and animations
     keyframes: {
