@@ -3,7 +3,7 @@
         "id" : 1,
         "name" : "Himanshu",
         "desig" : "Full Stack Developer",
-        "img" : "./src/assets/images/team/himanshu.jpeg",
+        "img" : "/himanshu.jpeg",
         "in" : "#"
     },
     {
