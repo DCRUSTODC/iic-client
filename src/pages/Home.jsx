@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import About from "../components/About";
 import aboutImg1 from '../assets/images/about5.jpg';
 import aboutImg2 from '../assets/images/about4.jpg';
+import mainImg from '../assets/images/i2.jpg'
 
 export default function Home() {
   useEffect(() => {
@@ -17,15 +18,15 @@ export default function Home() {
 
   return (
     <>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 sm:flex sm:flex-row gap-5">
         {/* Content */}
         <div className="pt-32 pb-10 md:pt-40 md:pb-16">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="mb-4 text-6xl" data-aos="fade-up">
-              Welcome to IIC - Fostering Innovation at <span className="text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-cyan to-white">DCRUST</span>
+              Welcome to Institution's Innovation Council - <span className="text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-cyan to-white">DCRUST</span>
             </h1>
             <p className="mb-8 leading-6" data-aos="fade-up" data-aos-delay="200">
-              Explore the Innovation Culture at Deenbandhu Chhotu Ram University Of Science And Technology through the Institute Innovation Council (IIC). Join us in nurturing innovation and entrepreneurship among students and faculty.
+              Explore the Innovation Culture at Deenbandhu Chhotu Ram University Of Science And Technology through the Institution's Innovation Council (IIC). We are nurturing innovation and entrepreneurship among students and faculty.
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
@@ -39,6 +40,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="img sm:max-w-[50%] m-auto">
+          <img className="border border-cyan rounded-xl" src={mainImg} alt="" />
         </div>
       </div>
 
