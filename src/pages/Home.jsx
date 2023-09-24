@@ -47,6 +47,20 @@ export default function Home() {
       </div>
 
       <hr className="border border-cyan w-[15rem] sm:w-[25rem] mx-auto my-[5rem]" />
+
+      {/* Board */}
+      <div className="board max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="flex flex-col gap-5 items-center justify-center">
+          <h1 className="title text-4xl text-cyan font-bold" data-aos="fade-up">
+            Update
+          </h1>
+          <div className="content border border-cyan rounded p-6 sm:w-[40rem] h-[10rem] my-10 mx-auto flex justify-center" data-aos="fade-up">
+            <h1 className="text-3xl">No Announcement !</h1>
+          </div>
+          </div>
+      </div>
+
+      <hr className="border border-cyan w-[15rem] sm:w-[25rem] mx-auto my-[5rem]" />
       {/* About */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col gap-5 items-center justify-center">
