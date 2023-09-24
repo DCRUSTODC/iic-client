@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 
 // Import your images
-import image1 from '../assets/event_images/image1.jpg';
-import image2 from "../assets/event_images/image2.jpg";
-import image3 from '../assets/event_images/image3.jpg';
-import image4 from '../assets/event_images/image4.jpg';
-import image5 from '../assets/event_images/image5.jpg';
+import image1 from '../assets/images/event_images/image1.jpg';
+import image2 from '../assets/images/event_images/image2.jpg';
+import image3 from '../assets/images/event_images/image3.jpg';
+import image4 from '../assets/images/event_images/image4.jpg';
+import image5 from '../assets/images/event_images/image5.jpg';
 
 const imageSources = [image1, image2, image3, image4, image5];
 

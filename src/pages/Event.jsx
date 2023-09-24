@@ -1,72 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import EventCard from '../components/EventCard'; // Create EventCard component if not already defined
-import event1 from '../assets/event_images/event1.jpg';
-import event2 from '../assets/event_images/event2.jpg';
+import event1 from '../assets/images/event_images/event1.jpg';
+import event2 from '../assets/images/event_images/event2.jpg';
 import RotatingImages from '../components/RotatingImages';
 
-const eventsData = [
-    {
-        title: 'Event 1',
-        description: 'Description for Event 1 goes here.',
-        date: 'Date: January 15, 2024',
-        location: 'Location: City Hall',
-        image: event1,
-    },
-    {
-        title: 'Event 2',
-        description: 'Description for Event 2 goes here.',
-        date: 'Date: February 20, 2024',
-        location: 'Location: Convention Center',
-        image: event2,
-    },
-    {
-        title: 'Event 3',
-        description: 'Description for Event 3 goes here.',
-        date: 'Date: January 20, 2024',
-        location: 'Location: Convention Center',
-        image: event1,
-    },
-    {
-        title: 'Event 4',
-        description: 'Description for Event 4 goes here.',
-        date: 'Date: February 20, 2024',
-        location: 'Location: Convention Center',
-        image: event2,
-    },
-    {
-        title: 'Event 1',
-        description: 'Description for Event 1 goes here.',
-        date: 'Date: January 15, 2023',
-        location: 'Location: City Hall',
-        image: event1,
-    },
-    {
-        title: 'Event 2',
-        description: 'Description for Event 2 goes here.',
-        date: 'Date: February 20, 2023',
-        location: 'Location: Convention Center',
-        image: event2,
-    },
-    {
-        title: 'Event 3',
-        description: 'Description for Event 3 goes here.',
-        date: 'Date: January 20, 2023',
-        location: 'Location: Convention Center',
-        image: event1,
-    },
-    {
-        title: 'Event 4',
-        description: 'Description for Event 4 goes here.',
-        date: 'Date: February 20, 2023',
-        location: 'Location: Convention Center',
-        image: event2,
-    },
-    // Add more events here
-];
 
-const currentDate = new Date(); // Get the current date
+
 
 function Events() {
+
+    const [eventsData, setEventsData] = useState([]);
+    const currentDate = new Date();
+
+    useEffect(() => {
+        // Fetch the event data from the JSON file
+        fetch('/src/assets/json/events.json')
+            .then((response) => response.json())
+            .then((data) => setEventsData(data))
+            .catch((error) => console.error('Error fetching event data:', error));
+    }, []);
+
     // Separate events into upcoming and previous based on the current date
     const upcomingEvents = eventsData.filter((event) => {
         const eventDate = new Date(event.date.split('Date: ')[1]);
@@ -77,6 +30,7 @@ function Events() {
         const eventDate = new Date(event.date.split('Date: ')[1]);
         return eventDate <= currentDate;
     });
+
 
     return (
         <>
@@ -101,22 +55,23 @@ function Events() {
 
 
             <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 ">
-                <h1 className="text-3xl font-semibold mb-8  animate-fade-in animate-delay-800 m1-8 text-white">Upcoming Events</h1>
+                <h1 className="text-3xl font-semibold mb-8  animate-fade-in animate-delay-800 m1-8 text-white">Previous Events</h1>
                 <div className="flex overflow-x-auto overflow-y-auto gap-6 p-5 animate-fade-in animate-delay-1000">
 
-                    {upcomingEvents.map((event, index) => (
+                    {previousEvents.map((event, index) => (
                         <EventCard key={index} event={event} />
                     ))}
+
 
                 </div>
                 <br />
                 <br />
                 <br />
 
-                <h1 className="text-3xl font-semibold mb-8  animate-fade-in animate-delay-800 text-white">Previous Events</h1>
+                <h1 className="text-3xl font-semibold mb-8  animate-fade-in animate-delay-800 text-white">Upcoming Events</h1>
                 <div className="flex overflow-x-auto overflow-y-auto gap-6 p-5 animate-fade-in animate-delay-1000">
 
-                    {previousEvents.map((event, index) => (
+                    {upcomingEvents.map((event, index) => (
                         <EventCard key={index} event={event} />
                     ))}
 

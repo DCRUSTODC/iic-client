@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Event 1",
+    "description": "Description for Event 1 goes here.",
+    "date": "Date: January 15, 2024",
+    "location": "Location: City Hall",
+    "image": "/src/assets/images/event_images/event1.jpg"
+  },
+  {
+    "title": "Event 2",
+    "description": "Description for Event 2 goes here.",
+    "date": "Date: February 20, 2024",
+    "location": "Location: Convention Center",
+    "image": "/src/assets/images/event_images/event2.jpg"
+  },
+  {
+    "title": "Event 3",
+    "description": "Description for Event 1 goes here.",
+    "date": "Date: March 15, 2024",
+    "location": "Location: City Hall",
+    "image": "/src/assets/images/event_images/event1.jpg"
+  },
+  {
+    "title": "Event 1",
+    "description": "Description for Event 2 goes here.",
+    "date": "Date: January 15, 2023",
+    "location": "Location: Convention Center",
+    "image": "/src/assets/images/event_images/event2.jpg"
+  },
+  {
+    "title": "Event 2",
+    "description": "Description for Event 1 goes here.",
+    "date": "Date: February 20, 2023",
+    "location": "Location: City Hall",
+    "image": "/src/assets/images/event_images/event1.jpg"
+  },
+  {
+    "title": "Event 3",
+    "description": "Description for Event 2 goes here.",
+    "date": "Date: March 15, 2023",
+    "location": "Location: Convention Center",
+    "image": "/src/assets/images/event_images/event1.jpg"
+  }
+]
