@@ -17,6 +17,7 @@ export default function Navbar() {
                         <ul className="flex grow justify-end flex-wrap items-center gap-5">
                             <li className="font-semibold"><Link to="/team">Team</Link></li>
                             <li className="font-semibold"><Link to="/events">Events</Link></li>
+                            <li className="font-semibold"><Link to="/gallery">Gallery</Link></li>
                         </ul>
                     </nav>
                 </div>
