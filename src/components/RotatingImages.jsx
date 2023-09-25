@@ -1,19 +1,14 @@
 import React, { useState, useEffect } from "react";
 
-// Import your images
-import image1 from '../assets/event_images/image1.jpg';
-import image2 from "../assets/event_images/image2.jpg";
-import image3 from '../assets/event_images/image3.jpg';
-import image4 from '../assets/event_images/image4.jpg';
-import image5 from '../assets/event_images/image5.jpg';
-
-const imageSources = [image1, image2, image3, image4, image5];
-
-function RotatingImages() {
+function RotatingImages({ imageSources }) {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [imageOpacity, setImageOpacity] = useState(1);
 
     useEffect(() => {
+        if (!imageSources || imageSources.length === 0) {
+            return; // No images to rotate
+        }
+
         // Preload all images before starting the rotation
         const preloadImages = imageSources.map((src) => {
             const img = new Image();
@@ -37,7 +32,11 @@ function RotatingImages() {
 
         // Clear the interval when the component unmounts
         return () => clearInterval(intervalId);
-    }, []);
+    }, [imageSources]);
+
+    if (!imageSources || imageSources.length === 0) {
+        return null; // Render nothing if there are no images
+    }
 
     return (
         <img
