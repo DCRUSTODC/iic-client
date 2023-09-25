@@ -1,3 +1,23 @@
 [
-    
+    {
+        "id" : 1,
+        "name" : "H P",
+        "desig" : "Full Stack Developer",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 2,
+        "name" : "A K",
+        "desig" : "Full Stack Developer",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 3,
+        "name" : "M B",
+        "desig" : "Full Stack Developer",
+        "img" : "#",
+        "in" : "#"
+    }
 ]

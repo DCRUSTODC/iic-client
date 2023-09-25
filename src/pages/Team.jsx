@@ -1,8 +1,10 @@
 import facs from "../assets/json/team/teachers.json"
-import studs from "../assets/json/team/data/2023.json"
 import Card from "../components/Card"
+import TeamSection from "../components/TeamSection"
+
 
 export default function Team(){
+
     return(
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <center className="mb-6">
@@ -19,13 +21,7 @@ export default function Team(){
             </div>
         </center>
         <h2 className="text-3xl font-bold m-3 text-accent">Student</h2>
-        <center>
-            <div className="flex flex-wrap flex-row justify-evenly items-center">
-            {studs.map((stu)=>{
-                return <Card key={stu.id} src={stu.img} name={stu.name} desig={stu.desig} />
-            })}
-            </div>
-        </center>
+        <TeamSection />
         </div>
     )
 }
