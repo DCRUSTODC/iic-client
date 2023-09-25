@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Prof. Rajiv Kumar",
+        "desig": "Member Secretary, AICTE, New Delhi"
+    },
+    {
+        "id": 2,
+        "name": "Prof. Shakti Kumar",
+        "desig": "Director PIET, Samalkha"
+    },
+    {
+        "id": 3,
+        "name": "Mr. Vikas Garg",
+        "desig": "Deputy Director at STPI, Ministry of Electronics and Information Technology, Govt. of India"
+    },
+    {
+        "id": 4,
+        "name": "Mr. Gurudutt Narula",
+        "desig": "M3Y Mobile Solutions, Pune"
+    },
+    {
+        "id": 5,
+        "name": "Mr. Arvind Dixit",
+        "desig": "Director & CEO, Advance Tech India Pvt. Ltd., Chandigarh"
+    },
+    {
+        "id": 6,
+        "name": "Dr. Rajeev Kamal",
+        "desig": "Senior Staff Engineer, Samsung Semiconductor India Research (SSIR), Bangalore"
+    }
+    ,
+    {
+        "id": 7,
+        "name": "Mr. Kamal Sihaag",
+        "desig": "Senior Advisory Specialist, IBM, India"
+    }
+]
