@@ -9,7 +9,6 @@ export default {
         cyan_secondary: "#45A29E",
         black: "#000000",
         white: "#ffffff",
-        lb: "#1a1110",
       },
     },
 
