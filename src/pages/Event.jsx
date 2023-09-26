@@ -1,8 +1,14 @@
 import React, { useEffect, useState } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import EventCard from '../components/EventCard';
 import eventData from '../assets/json/events/data/events.json';
 
 function Events() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
 
     const currentDate = new Date();
 
@@ -39,15 +45,15 @@ function Events() {
             </div>
 
             <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
-                <h1 className="text-3xl font-semibold mb-8 text-white">Previous Events</h1>
-                <div className="flex overflow-x-scroll overflow-y-hidden gap-10 p-5">
+                <h1 className="text-3xl font-semibold mb-8 text-white" data-aos="fade-right">Previous Events</h1>
+                <div className="flex overflow-x-scroll overflow-y-hidden gap-10 p-5" data-aos="fade-left">
                     {sortedPreviousEvents.map((event, index) => (
                         <EventCard key={index} event={event} />
                     ))}
                 </div>
 
-                <h1 className="text-3xl font-semibold mb-8 text-white my-10">Upcoming Events</h1>
-                <div className="flex overflow-x-scroll overflow-y-hidden gap-5 p-5">
+                <h1 className="text-3xl font-semibold mb-8 text-white my-10" data-aos="fade-right">Upcoming Events</h1>
+                <div className="flex overflow-x-scroll overflow-y-hidden gap-5 p-5" data-aos="fade-left">
                     {upcomingEvents.map((event, index) => (
                         <EventCard key={index} event={event} />
                     ))}
