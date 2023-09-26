@@ -25,7 +25,7 @@ function Events() {
 
     return (
         <>
-            <center className='text-5xl   font-bold  text-grey m-2'>
+            <center className='text-5xl   font-bold  text- m-2'>
                 Events
             </center>
 
@@ -39,21 +39,21 @@ function Events() {
             </div>
 
             <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
-                <h1 className="text-3xl font-semibold mb-8  text-white">Previous Events</h1>
-                <div className="flex overflow-x-auto overflow-y-auto gap-5 p-5 ">
+                <h1 className="text-3xl font-semibold mb-8 text-white">Previous Events</h1>
+                <div className="flex overflow-x-scroll overflow-y-hidden gap-10 p-5">
                     {sortedPreviousEvents.map((event, index) => (
                         <EventCard key={index} event={event} />
                     ))}
                 </div>
 
-
-                <h1 className="text-3xl font-semibold mb-8  text-white my-10">Upcoming Events</h1>
-                <div className="flex overflow-x-auto overflow-y-auto gap-5 p-5 ">
+                <h1 className="text-3xl font-semibold mb-8 text-white my-10">Upcoming Events</h1>
+                <div className="flex overflow-x-scroll overflow-y-hidden gap-5 p-5">
                     {upcomingEvents.map((event, index) => (
                         <EventCard key={index} event={event} />
                     ))}
                 </div>
             </div>
+
         </>
     );
 }

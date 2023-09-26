@@ -1,6 +1,6 @@
 [
   {
-    "title": "Expert Lecture on Data Science",
+    "title": "Expert Lecture ",
     "date": "Date: December 14, 2022",
     "description": "Connecting Dots on Data Science and innovative thinking by Dr. Anshul Ujlayan",
     "location": "Location: UCC Seminar Hall",
@@ -43,42 +43,35 @@
     "images": ["/events/2022/expert lecture 7-11-22.jpg"]
   },
   {
-    "title": "Expert Lecture on Recent Innovation in Technology",
+    "title": "Expert Lecture ",
     "date": "Date: July 10, 2022",
     "description": "Exploring the latest technological innovations with expert insights in this informative lecture by Dr. Rohtash Dhiman.",
-    "location": "Location: Online (Google Meet)",
-    "images": ["/events/2022/expert lecture 7-11-22.jpg"]
-  },
-  {
-    "title": "Expert Lecture on Recent Innovation in Technology",
-    "date": "Date: July 10, 2022",
-    "description": "Exploring the latest technological innovations with expert insights in this informative lecture.",
     "location": "Location: Online (Google Meet)",
     "images": ["/events/2022/expert lecture 10-7-22.jpg"]
   },
   {
-    "title": "Expert Lecture on How to Be a Successful Enterpreneur",
+    "title": "Expert Lecture ",
     "date": "Date: February 19, 2022",
     "description": "Learn from the experts: Key insights on achieving entrepreneurial success by Mr. Swayam Prakash",
     "location": "Location: Online (Google Meet)",
     "images": ["/events/2022/expert lecture 19-2-22.jpg"]
   },
   {
-    "title": "Expert Lecture on Acadameia and industry collaboration for technology innovation.",
+    "title": "Expert Lecture ",
     "date": "Date: February 22, 2022",
     "description": "An expert lecture exploring the synergy between academia and industry in fostering technological innovation by Mr. Manish Anand",
     "location": "Location: Library Seminar Hall",
     "images": ["/events/2022/expert lecture 22-2-22.jpg"]
   },
   {
-    "title": "Expert Lecture on How to convert an idea into prototype",
+    "title": "Expert Lecture",
     "date": "Date: February 27, 2022",
     "description": "Learning how to transform ideas into prototypes in our Expert Lecture by Mr. Arvind Dixit",
     "location": "Location: Online (Google Meet)",
     "images": ["/events/2022/expert lecture 27-2-22.jpg"]
   },
   {
-    "title": "Expert Lecture on Intellectual Property Rights ",
+    "title": "Expert Lecture",
     "date": "Date: May 31, 2022",
     "description": " An expert lecture on Intellectual Property Rights explores the legal protection of creative and innovative ideas by Dr. Manoj Kumar Sinha",
     "location": "Location: UCC Seminar Hall",
@@ -92,7 +85,7 @@
     "images": ["/events/2022/internal sih 2022 21-3-22.jpg"]
   },
   {
-    "title": "Expert Lecture on Hardware",
+    "title": "Expert Lecture",
     "date": "Date: May 5, 2023",
     "description": "Efficient Hardware Support for Startups by Mr. Neeraj Gupta",
     "location": "Location: Auditorium Seminar Hall",
@@ -104,19 +97,19 @@
   },
 
   {
-    "title": "Field Trip IIT Mandi",
+    "title": "Field Trip",
     "date": "Date: April 27, 2023",
     "description": "A field trip to one of the most prestigious institutes in the country, IIT Mandi, to learn about the latest technological innovations and research.",
     "location": "Location: IIT Mandi",
     "images": [
       "/events/2023/iit mandi field visit 29-4-23/pic 1.JPG",
-      "/events/2023/iit mandi field visit 29-4-23/pic 2.HEIC",
-      "/events/2023/iit mandi field visit 29-4-23/pic 3.HEIC",
-      "/events/2023/iit mandi field visit 29-4-23/pic 4.HEIC"
+      "/events/2023/iit mandi field visit 29-4-23/pic 2.jpg",
+      "/events/2023/iit mandi field visit 29-4-23/pic 3.jpg",
+      "/events/2023/iit mandi field visit 29-4-23/pic 4.jpg"
     ]
   },
   {
-    "title": "NIELET Startup Seminar on Startup as career opportunity",
+    "title": "NIELET Startup Seminar ",
     "date": "Date: March 20, 2023",
     "description": "Exploring startup ventures as promising career opportunities by Smt. Alpana Agrawal and Smt. Kanchan Rani",
     "location": "Location: Seminar Hall Auditorium",
@@ -130,7 +123,7 @@
     ]
   },
   {
-    "title": "Panel Discussion on AI driven Innovation & Startups",
+    "title": "Panel Discussion",
     "date": "Date: March 20, 2023",
     "description": "Panel discussion exploring AI-driven innovation and its impact on startups, featuring insights from industry experts i.e. Mr. Sanjeev Kothari & Mr. Kamal jain",
     "location": "Location: Smart Classroom CSED",
@@ -149,7 +142,7 @@
     "images": [
       "/events/2023/SLH Phase 1 3-3-23/SLH Ist phase poster.jpg",
       "/events/2023/SLH Phase 1 3-3-23/pic 1.jpeg",
-      "/events/2023/SLH Phase 1 3-3-23/pic 2.HEIC",
+      "/events/2023/SLH Phase 1 3-3-23/pic 2.jpg",
       "/events/2023/SLH Phase 1 3-3-23/pic 3.jpg",
       "/events/2023/SLH Phase 1 3-3-23/pic 4.jpg"
     ]
@@ -167,7 +160,7 @@
       "/events/2023/SLH Phase 2 4-3-23/pic 5.jpeg",
       "/events/2023/SLH Phase 2 4-3-23/pic 6.jpg",
       "/events/2023/SLH Phase 2 4-3-23/pic 7.jpg",
-      "/events/2023/SLH Phase 2 4-3-23/SLH 2nd phase poster.png"
+      "/events/2023/SLH Phase 2 4-3-23/SLH 2nd phase poster.jpg"
     ]
   },
   {
