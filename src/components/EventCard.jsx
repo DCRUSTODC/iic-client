@@ -5,7 +5,8 @@ function EventCard({ event }) {
     const eventImage = event.images[0];
 
     return (
-        <div className="flex-shrink-0 w-100 h-100 p-8 mx-2 rounded-lg overflow-hidden shadow-md border border-2 border-cyan hover:shadow-xl hover:scale-105">
+        <div className="flex-shrink-0 w-100 h-100 p-8 mx-2 rounded-lg overflow-hidden shadow-md border border-2 border-cyan
+        ">
             <img
                 src={eventImage}
                 alt={`Event - ${event.title}`}
