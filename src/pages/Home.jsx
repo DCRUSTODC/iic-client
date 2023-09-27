@@ -49,14 +49,14 @@ export default function Home() {
 
       <hr className="border border-cyan w-[15rem] sm:w-[25rem] mx-auto my-[5rem]" />
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 sm:flex sm:flex-col gap-5">
-        <div className="img sm:max-w-[50%] m-auto">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 sm:flex sm:flex-col gap-2">
+        <div className="img sm:max-w-[50%] mx-auto">
           <img className="border border-cyan rounded-xl" src={dcrustImg} alt="" />
         </div>  
       
         {/* Content */}
         <div className="pt-16  md:pt-20">
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-4 md:pb-8">
             <h1 className="mb-4 text-3xl" data-aos="fade-up">
               Deenbandhu Chhotu Ram University of Science and Technology, Murthal, Sonepat, Haryana
             </h1>
