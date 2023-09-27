@@ -15,9 +15,10 @@ export default function Navbar() {
                     {/* Nav */}
                     <nav className="flex grow">
                         <ul className="flex grow justify-end flex-wrap items-center gap-5">
-                            <li className="font-semibold"><Link to="/team">Team</Link></li>
-                            <li className="font-semibold"><Link to="/events">Events</Link></li>
-                            <li className="font-semibold"><Link to="/gallery">Gallery</Link></li>
+                            <li className="font-semibold text-[0.5rem] sm:text-lg"><Link to="/team">Team</Link></li>
+                            <li className="font-semibold text-[0.5rem] sm:text-lg"><Link to="/events">Events</Link></li>
+                            <li className="font-semibold text-[0.5rem] sm:text-lg"><Link to="/gallery">Gallery</Link></li>
+                            <li className="font-semibold text-[0.5rem] sm:text-lg"><Link to="/contact">Contact</Link></li>
                         </ul>
                     </nav>
                 </div>
