@@ -1,23 +1,121 @@
 [
     {
         "id" : 1,
-        "name" : "Himanshu",
-        "desig" : "Full Stack Developer",
-        "img" : "/team/2023/himanshu.jpeg",
+        "name" : "Suhawana",
+        "desig" : "Student Coordinator",
+        "img" : "#",
         "in" : "#"
     },
     {
         "id" : 2,
-        "name" : "Ajay Kumar",
-        "desig" : "Full Stack Developer",
-        "img" : "/team/2023/ajaykumar.jpeg",
+        "name" : "Tarun Kumar",
+        "desig" : "Student Coordinator",
+        "img" : "#",
         "in" : "#"
     },
     {
         "id" : 3,
-        "name" : "Mukul Bhardwaj",
-        "desig" : "Full Stack Developer",
-        "img" : "/team/2023/mukulbhardwaj.jpeg",
+        "name" : "Rahul",
+        "desig" : "Coordinator/Web Handling",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 4,
+        "name" : "Sambhav Saxena",
+        "desig" : "Web Developer/Handler",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 5,
+        "name" : "Harsh Prajapati",
+        "desig" : "Web Developer/Handler",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 6,
+        "name" : "Nomish",
+        "desig" : "Social Media Publicity",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 7,
+        "name" : "Chirag Saxena",
+        "desig" : "Social Media Publicity",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 8,
+        "name" : "Yash Prajapati",
+        "desig" : "Social Media Publicity",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 9,
+        "name" : "Harsh",
+        "desig" : "Event Management",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 10,
+        "name" : "Sunny Kumar Yadav",
+        "desig" : "Event Management",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 11,
+        "name" : "Aryan",
+        "desig" : "Event Management",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 12,
+        "name" : "Vansh Batra",
+        "desig" : "Event Management",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 13,
+        "name" : "Neha",
+        "desig" : "Poster & Certificate Designing",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 14,
+        "name" : "Lalit",
+        "desig" : "Poster & Certificate Designing",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 15,
+        "name" : "Smriti",
+        "desig" : "Poster & Certificate Designing",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 16,
+        "name" : "Varun Rana",
+        "desig" : "Purchase Management",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 17,
+        "name" : "Priyanshu",
+        "desig" : "Purchase Management",
+        "img" : "#",
         "in" : "#"
     }
 ]
