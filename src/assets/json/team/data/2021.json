@@ -1,0 +1,156 @@
+[
+    {
+        "id" : 1,
+        "name" : "Tushar",
+        "desig" : "Full Stack Developer",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 2,
+        "name" : "Vinay Matta",
+        "desig" : "Full Stack Developer",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 3,
+        "name" : "Nikita Jain",
+        "desig" : "Developer",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 4,
+        "name" : "Deepanshu Kaushik",
+        "desig" : "Record of Activities",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 5,
+        "name" : "Chirag Goyal",
+        "desig" : "Record of Activities",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 6,
+        "name" : "Hemant",
+        "desig" : "Record of Activities",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 7,
+        "name" : "Rohan Malik",
+        "desig" : "Media/Publicity",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 8,
+        "name" : "Yashwant Soni",
+        "desig" : "Media/Publicity",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 9,
+        "name" : "Anjali Duhan",
+        "desig" : "Event Management",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 10,
+        "name" : "Yash Mohan",
+        "desig" : "Event Management",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 11,
+        "name" : "Devansh Attray",
+        "desig" : "Event Management",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 12,
+        "name" : "Tamanna Verma",
+        "desig" : "Event Management",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 13,
+        "name" : "Harsh Kumar Phogat",
+        "desig" : "Member",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 14,
+        "name" : "Chetanya",
+        "desig" : "Member",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 15,
+        "name" : "Jatin",
+        "desig" : "Member",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 16,
+        "name" : "Yuvraj Singh",
+        "desig" : "Member",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 17,
+        "name" : "Paritosh Dahiya",
+        "desig" : "Member",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 18,
+        "name" : "Rahul Saini",
+        "desig" : "Member",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 19,
+        "name" : "Rishabh Kalra",
+        "desig" : "Member",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 20,
+        "name" : "Naveen",
+        "desig" : "Member",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 21,
+        "name" : "Kashish",
+        "desig" : "Member",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 22,
+        "name" : "Bharti",
+        "desig" : "Member",
+        "img" : "#",
+        "in" : "#"
+    }
+]
