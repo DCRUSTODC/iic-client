@@ -26,7 +26,7 @@ function Gallery() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
             <h1 className="text-5xl mb-8 text-center text-transparent font-extrabold text-white">Photo Collection</h1>
             {sortedEvents.map((event, index) => (
-                <div key={index} className="mb-8 bg-black border-2 border-cyan_secondary rounded-lg p-4" data-aos="fade-up">
+                <div key={index} className="mb-8  border-2 border-cyan_secondary rounded-lg p-4" data-aos="fade-up">
 
                     <h2 className="text-2xl font-bold mb-4 text-white" data-aos="fade-right"><center>{event.title}</center></h2>
 

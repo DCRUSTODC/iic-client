@@ -9,21 +9,21 @@
     {
         "id" : 2,
         "name" : "Dr. Rohtash Dhiman",
-        "desig" : "Co-ordinator",
+        "desig" : "Coordinator",
         "img" : "/team/rohtash.jpeg",
         "in" : "#"
     },
     {
         "id" : 3,
         "name" : "Dr. Ajmer Singh",
-        "desig" : "Co-ordinator",
+        "desig" : "Coordinator",
         "img" : "/team/ajmer.jpeg",
         "in" : "#"
     },
     {
         "id" : 4,
-        "name" : "Mr. Vikas Nehra",
-        "desig" : "Co-ordinator",
+        "name" : "Dr. Vikas Nehra",
+        "desig" : "Coordinator",
         "img" : "/team/vikas.jpeg",
         "in" : "#"
     }
