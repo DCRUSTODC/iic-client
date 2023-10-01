@@ -7,7 +7,7 @@ import linkedin from '../assets/images/linkedin.svg'
 export default function Footer() {
     return (
 
-        <footer className="w-full bg-cyan p-5">
+        <footer className="w-full bg-cyan pt-5 md:p-0">
             <div className="flex justify-between p-0 md:px-28 items-center flex-col-reverse md:flex-row">
                 <div className="flex justify-around items-center gap-4 py-6 md:gap-6 flex-col-reverse md:flex-row">
                     <div className="logo text-black text-4xl flex items-center font-bold">
