@@ -30,7 +30,7 @@ export default function Navbar() {
                         <span className="ham-btn material-symbols-rounded">
                             <img src={hambtn} alt="" className='w-[75px]'/>
                         </span>
-                        <ul className={`${isOpen? 'translate-y-0' : '-translate-y-[25rem]'} flex duration-1000 transition-all ease-in-out  grow justify-end flex-wrap items-center gap-4 flex-col w-screen fixed top-0 p-4 pb-8 bg-cyan z-50`}>
+                        <ul className={`${isOpen? ' translate-y-0' : '-translate-y-[50rem] '} flex  duration-1000 transition-all ease-in-out  grow justify-end flex-wrap items-center gap-4 flex-col w-[50%] fixed top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] p-4 pb-8 bg-cyan z-50`}>
                             <li className="font-semibold sm:text-lg text-black  w-full" onClick={()=>setOpen(!isOpen)}>
                                 <img src={close} alt="" className='w-[45px]  mt-2 float-right'  />
                             </li>
@@ -39,6 +39,7 @@ export default function Navbar() {
                             <li className="font-semibold sm:text-lg text-black w-full text-center"><Link to="/gallery" className='hover:text-black p-[10px] w-full inline-block'>Gallery</Link></li>
                             <li className="font-semibold sm:text-lg text-black w-full text-center"><Link to="/contact" className='hover:text-black p-[10px] w-full inline-block'>Contact</Link></li>
                         </ul>
+                        <div className={`${isOpen?  'translate-y-0' : '-translate-y-[42rem]'} shadow w-screen h-screen fixed left-0 top-0 z-10 backdrop-blur-md`}></div>
                     </nav>
 
 
