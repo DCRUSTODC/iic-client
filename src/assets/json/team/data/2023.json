@@ -43,76 +43,104 @@
     },
     {
         "id" : 7,
+        "name" : "Himanshu",
+        "desig" : "Web Developer/Handler",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 8,
+        "name" : "Aditi Dahiya",
+        "desig" : "Web Developer/Handler",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 9,
+        "name" : "Ajay Thakur",
+        "desig" : "Web Developer/Handler",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 10,
+        "name" : "Mukul Bhardwaj",
+        "desig" : "Web Developer/Handler",
+        "img" : "#",
+        "in" : "#"
+    },
+    {
+        "id" : 11,
         "name" : "Chirag Saxena",
         "desig" : "Social Media Publicity",
         "img" : "#",
         "in" : "#"
     },
     {
-        "id" : 8,
+        "id" : 12,
         "name" : "Yash Prajapati",
         "desig" : "Social Media Publicity",
         "img" : "#",
         "in" : "#"
     },
     {
-        "id" : 9,
+        "id" : 13,
         "name" : "Harsh",
         "desig" : "Event Management",
         "img" : "#",
         "in" : "#"
     },
     {
-        "id" : 10,
+        "id" : 14,
         "name" : "Sunny Kumar Yadav",
         "desig" : "Event Management",
         "img" : "#",
         "in" : "#"
     },
     {
-        "id" : 11,
+        "id" : 15,
         "name" : "Aryan",
         "desig" : "Event Management",
         "img" : "#",
         "in" : "#"
     },
     {
-        "id" : 12,
+        "id" : 16,
         "name" : "Vansh Batra",
         "desig" : "Event Management",
         "img" : "#",
         "in" : "#"
     },
     {
-        "id" : 13,
+        "id" : 17,
         "name" : "Neha",
         "desig" : "Poster & Certificate Designing",
         "img" : "#",
         "in" : "#"
     },
     {
-        "id" : 14,
+        "id" : 18,
         "name" : "Lalit",
         "desig" : "Poster & Certificate Designing",
         "img" : "#",
         "in" : "#"
     },
     {
-        "id" : 15,
+        "id" : 19,
         "name" : "Smriti",
         "desig" : "Poster & Certificate Designing",
         "img" : "#",
         "in" : "#"
     },
     {
-        "id" : 16,
+        "id" : 20,
         "name" : "Varun Rana",
         "desig" : "Purchase Management",
         "img" : "#",
         "in" : "#"
     },
     {
-        "id" : 17,
+        "id" : 21,
         "name" : "Priyanshu",
         "desig" : "Purchase Management",
         "img" : "#",
