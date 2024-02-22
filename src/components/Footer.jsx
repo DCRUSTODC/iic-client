@@ -23,8 +23,8 @@ export default function Footer() {
                     <div className="col1 flex flex-col gap-2">
                         <ul className='flex gap-6'>
                             <Link className='hover:scale-110 transition duration-300 ease-out' to="https://github.com/DCRUSTODC/iic"><img src={github}></img></Link>
-                            <Link className='hover:scale-110 transition duration-300 ease-out' to="https://www.instagram.com/dcrust_iic/"><img src={facebook}></img></Link>
-                            <Link className='hover:scale-110 transition duration-300 ease-out' to="https://www.facebook.com/profile.php?id=100067162215624"><img src={linkedin}></img></Link>
+                            <Link className='hover:scale-110 transition duration-300 ease-out' to="https://www.instagram.com/dcrust_iic/"><img src={linkedin}></img></Link>
+                            <Link className='hover:scale-110 transition duration-300 ease-out' to="https://www.facebook.com/profile.php?id=100067162215624"><img src={facebook}></img></Link>
                         </ul>
                     </div>
                 </div>
